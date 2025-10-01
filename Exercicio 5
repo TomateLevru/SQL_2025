@@ -1,0 +1,17 @@
+      |-------------------------------------------------------------
+      |                |-Nomes(pk)                                 |
+      |Alunos(fk)      |-contacto do encarregado de educação(pk)   |
+      |                |-Id do cartão da escola(pk)                |
+      |-------------------------------------------------------------
+      |                |-Nomes(pk)                                 |
+  BD  |Professores(fk) |-o professor helder voltar(pk)             |
+      |                |-Ser a vera(pk)                            |
+      |-------------------------------------------------------------
+school|                |-Id do curso(pk)                           |
+      |Cursos(fk)      |-Nome do curso(pk)                         |
+      |                |-Alunos(pk)                                |
+      |-------------------------------------------------------------
+      |                |-Nomes(pk)                                 |
+      |Funcionarios(fk)|-horario de trabalho(pk)                   |
+      |                |-Idade(pk)                                 |
+      |-------------------------------------------------------------
