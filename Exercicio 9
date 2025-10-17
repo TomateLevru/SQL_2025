@@ -1,0 +1,45 @@
+Livros <-----> Utilizadores
+autor -------> livros
+livros ------> generos
+Funcionarios ------- utilizadores
+
+
+
+        Tabela de Livros
+
+id_livro.      | PK
+id_autor.      | FK
+id_titulo.     | FK
+id_genero.     | FK
+secção.        | FK
+
+
+
+     Tabela de Funcionarios
+
+id_funcionarios| PK
+nome.          | FK
+idade.         | FK
+altura.        | FK
+
+
+          Autor do Livro
+
+id_autor.      | PK
+id_livro.      | FK
+id_titulo.     | FK
+idade.         | FK
+nome.          | FK
+
+
+         Genero do Livro
+
+id_genero.     | PK
+id_livro.      | FK
+
+           utilizadores
+
+id_utilizadores| PK
+nome.          | FK
+endereço.      | FK
+telefone.      | FK
