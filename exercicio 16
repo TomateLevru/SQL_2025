@@ -1,0 +1,12 @@
+CREATE DATABASE loja;
+USE loja;
+
+CREATE TABLE armazem (
+	cod_prod_ID INT PRIMARY KEY,
+	valor_unit FLOAT, 
+    quantidade INT,
+    desconto FLOAT
+	);
+    
+    SELECT * FROM armazem;
+    
